@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# ReactFireChat (Test App)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a181807-27ec-4c35-947c-f5966b7c7f04/deploy-status)](https://app.netlify.com/sites/reactfirechat-test/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
