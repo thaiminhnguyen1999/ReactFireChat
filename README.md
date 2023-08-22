@@ -1,4 +1,4 @@
-# ReactFireChat (Test App)
+# ReactFireChat (Beta)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9a181807-27ec-4c35-947c-f5966b7c7f04/deploy-status)](https://app.netlify.com/sites/reactfirechat-test/deploys) [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/) [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) [![Npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://https://npmjs.com/) ![Terminal](https://badgen.net/badge/icon/terminal?icon=terminal&label) [![Windows](https://badgen.net/badge/icon/windows?icon=windows&label)](https://microsoft.com/windows/)
 
