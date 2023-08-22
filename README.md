@@ -4,69 +4,91 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to use?
 
-In the project directory, you can run:
+You can use this React application directly by [clicking here](https://reactfirechat-test.netlify.app)
 
-### `npm start`
+Or if you want to edit this project then you can do the following:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```sh
+git clone -b clone-branch https://github.com/thaiminhnguyen1999/ReactFireChat
+cd ReactFireChat
+npm i
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+And if you want to run the React app then just enter the command:
 
-### `npm test`
+```sh
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+```
+ReactFireChat
+├── README.md
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── node_modules
+├── public
+│   ├── img
+│   ├── favicon.ico
+│   ├── index.html
+|   ├── logo192.png
+|   ├── logo512.png
+|   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    |── reportWebVitals.js
+    └── setupTests.js
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Firebase
+The project uses Firebase. So before running the `npm start` command add the Firebase project configuration first.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### How to add Firebase project configuration?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+First, visit the website firebase.google.com.
 
-### `npm run eject`
+<img src='./public/img/z4625828859374_8978935b2bc94bcf322a74c1c547b9a1.jpg'>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Then press the `Get Started` button and you will be taken to another page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src='./public/img/z4625857464480_cc3f9d98a28b99933279d0e87c58b6e1.jpg'>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Select `Add Project` then enter a name for your Firebase Project and press `Continue`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src='./public/img/z4625857464718_73bd24b20c2a5df8c48fcd9d33b2ee4a.jpg'>
 
-## Learn More
+Google will ask if you want to add Google Analytics to your Firebase project? In my opinion, it can be turned on but can't be turned on, so I don't turn it on (If not, click the button to the left of the word `Enable Google Analytics for this project`) and press `Continue`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src='./public/img/z4625857464471_e625629e54bfbb19097d78f4106dc0a2.jpg'>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Now wait a bit for Firebase to create the project. After complete, press `Continue`
 
-### Code Splitting
+<img src='./public/img/z4625857422840_2b44c5230885b680a538d81da55c7412.jpg'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Click the `</>` icon to continue.
 
-### Analyzing the Bundle Size
+<img src='./public/img/z4625857421759_f4bafc08f5f75baa2bbc4d3b28aef495.jpg'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Now enter the app name in `My web app` and press `Register app`
 
-### Making a Progressive Web App
+<img src='./public/img/z4625857366807_13fb34a247ef5db97457b46d889eb9ef.jpg'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Under `Add Firebase SDK`, copy the part inside 
+```
+const firebaseConfig = {
+  
+};
+```
+and paste the code inside the file ReactFireChat/src/App.js (Line 12).
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Finally, save the file and you can use it.
