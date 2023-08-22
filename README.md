@@ -89,6 +89,6 @@ const firebaseConfig = {
   
 };
 ```
-and paste the code inside the file [ReactFireChat/src/App.js (Line 12).](./src/App.js)
+and paste the code inside the file [ReactFireChat/src/App.js (Line 12).](https://github.com/thaiminhnguyen1999/ReactFireChat/blob/clone-branch/src/App.js)
 
 Finally, save the file and you can use it.
