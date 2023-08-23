@@ -4,6 +4,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can use it through two websites: [ReactFireChat (Netlify)](reactfirechat-test.netlify.app) and [ReactFireChat (Cloudflare Pages)](reactfirechat.pages.dev)
+
 ## How to use?
 
 You can use this React application directly by [clicking here](https://reactfirechat-test.netlify.app)
